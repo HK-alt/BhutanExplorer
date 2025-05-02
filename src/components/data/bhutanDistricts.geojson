@@ -1,0 +1,29 @@
+
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "name": "Thimphu",
+          "area": 1767,
+          "population": 138736,
+          "capital": "Thimphu"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [89.512, 27.352],
+              [89.528, 27.412],
+              [89.678, 27.423],
+              [89.724, 27.398],
+              [89.621, 27.331],
+              [89.512, 27.352]
+            ]
+          ]
+        }
+      }
+      
+    ]
+  }

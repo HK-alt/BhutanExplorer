@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Leaflet popup styling */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.leaflet-popup-content {
+  margin: 8px !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Dark mode support */
+.dark .leaflet-popup-content-wrapper {
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.dark .leaflet-popup-tip {
+  background-color: #1f2937;
+}
+
+.compass-control {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
+
+.compass-arrow {
+  width: 24px;
+  height: 24px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23007bff"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.29-9.99L12 16l-4.29-5.99C7.08 9.83 7.49 9 8.28 9h7.44c.79 0 1.2.83.57 1.41z"/></svg>');
+  background-size: contain;
+}
+
+/* Add to your global CSS */
+.legend {
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  line-height: 18px;
+  color: #555;
+}
+
+.legend h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+.dark .legend {
+  background: #1f2937;
+  color: #fff;
+}
